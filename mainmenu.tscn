@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvq3gfm0e05r1"]
+
+[ext_resource type="Texture2D" uid="uid://cl74wskuq3vbs" path="res://bowling.png" id="1_hbvn8"]
+[ext_resource type="Script" path="res://start.gd" id="2_y3xl2"]
+
+[node name="Mainmenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_y3xl2")
+
+[node name="Bowling" type="Sprite2D" parent="."]
+position = Vector2(128, 128)
+scale = Vector2(0.580418, 0.383126)
+texture = ExtResource("1_hbvn8")
+
+[node name="RichTextLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 29.0
+offset_right = 191.0
+offset_bottom = 56.0
+scale = Vector2(1.9754, 2.72643)
+theme_override_constants/shadow_outline_size = 0
+theme_override_font_sizes/font_size = 11
+text = "DUMBPLATFORMER3D"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 195.0
+offset_right = 138.0
+offset_bottom = 218.0
+scale = Vector2(2.88231, 4.24239)
+theme_override_font_sizes/font_size = 10
+text = "Press 1 to start"
+
+[node name="load" type="Label" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 10.0
+offset_top = 86.0
+offset_right = 54.0
+offset_bottom = 109.0
+scale = Vector2(5.3176, 4.36231)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 14
+text = "LOAD"
+horizontal_alignment = 1
