@@ -6,3 +6,5 @@ This is a source code for my rushed game named "DumbPlatformer3D"
 - I recommend using 4.3 as its where the source was made.
 ## What do i do with this piece of garbage?
 idk make a fork and make your own version of dp3d
+### Additional Information
+- The main game scene is game.tscn
